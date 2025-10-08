@@ -1,0 +1,171 @@
+[gd_scene load_steps=23 format=3 uid="uid://c40k8jugp5l0c"]
+
+[ext_resource type="Script" uid="uid://dck4yhwad25u1" path="res://menu/menu.gd" id="1_6nwqt"]
+[ext_resource type="Texture2D" uid="uid://dangc7o3tup7d" path="res://menu/mainmenu.png" id="1_g18jx"]
+[ext_resource type="FontFile" uid="uid://bxrcnifikqq60" path="res://world/assets/font/KC Nightmare.ttf" id="2_6nwqt"]
+[ext_resource type="PackedScene" uid="uid://bwt7ys5whr8td" path="res://character/mode.tscn" id="2_juveg"]
+[ext_resource type="PackedScene" uid="uid://b74am5hx407og" path="res://menu/setting.tscn" id="2_svuvw"]
+[ext_resource type="PackedScene" uid="uid://b52kp3dxquwex" path="res://menu/howtoplay.tscn" id="4_juveg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s4hbh"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6fswf"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bc54p"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pbjm4"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_043lm"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iesyu"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iuxab"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_svuvw"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dmxns"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3vbpa"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_aycgx"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_juveg"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bpqio"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o0hb3"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f5xy8"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v6yed"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[node name="menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6nwqt")
+mode_scene = ExtResource("2_juveg")
+setting_scene = ExtResource("2_svuvw")
+howtoplay_scene = ExtResource("4_juveg")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_g18jx")
+
+[node name="play" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 102.0
+offset_top = -1.0
+offset_right = 268.0
+offset_bottom = 56.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_hover_color = Color(1, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_6nwqt")
+theme_override_font_sizes/font_size = 35
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_s4hbh")
+theme_override_styles/hover = SubResource("StyleBoxFlat_6fswf")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_bc54p")
+theme_override_styles/normal = SubResource("StyleBoxFlat_pbjm4")
+text = "PLAY"
+
+[node name="setting" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 102.0
+offset_top = 59.0
+offset_right = 268.0
+offset_bottom = 116.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_hover_color = Color(1, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_6nwqt")
+theme_override_font_sizes/font_size = 35
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_043lm")
+theme_override_styles/hover = SubResource("StyleBoxFlat_iesyu")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_iuxab")
+theme_override_styles/normal = SubResource("StyleBoxFlat_svuvw")
+text = "SETTING"
+
+[node name="credit" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 102.0
+offset_top = 125.0
+offset_right = 268.0
+offset_bottom = 182.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_hover_color = Color(1, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_6nwqt")
+theme_override_font_sizes/font_size = 35
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_dmxns")
+theme_override_styles/hover = SubResource("StyleBoxFlat_3vbpa")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_aycgx")
+theme_override_styles/normal = SubResource("StyleBoxFlat_juveg")
+text = "HOW TO PLAY"
+
+[node name="exit" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 102.0
+offset_top = 188.0
+offset_right = 268.0
+offset_bottom = 245.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_hover_color = Color(1, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_6nwqt")
+theme_override_font_sizes/font_size = 35
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_bpqio")
+theme_override_styles/hover = SubResource("StyleBoxFlat_o0hb3")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_f5xy8")
+theme_override_styles/normal = SubResource("StyleBoxFlat_v6yed")
+text = "EXIT"
+
+[connection signal="pressed" from="play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="setting" to="." method="_on_setting_pressed"]
+[connection signal="pressed" from="credit" to="." method="_on_credit_pressed"]
+[connection signal="pressed" from="exit" to="." method="_on_exit_pressed"]

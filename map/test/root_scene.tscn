@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://ccrk4ge7bssj"]
+
+[ext_resource type="PackedScene" uid="uid://bjqhpo4fhb83a" path="res://test/Pink Slime.glb" id="1_itajj"]
+
+[node name="Root Scene" instance=ExtResource("1_itajj")]
+
+[node name="Skeleton3D" parent="RootNode/CharacterArmature" index="0"]
+bones/2/position = Vector3(0, 0, 0.00483194)
+bones/4/rotation = Quaternion(6.93889e-18, 3.54715e-10, -0.00264005, 0.999997)

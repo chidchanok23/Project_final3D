@@ -1,0 +1,63 @@
+[gd_scene load_steps=7 format=4 uid="uid://b2vqjmwt78fd7"]
+
+[ext_resource type="Texture2D" uid="uid://b4b682nye0win" path="res://assets/object/carpet_0.jpg" id="1_ls6fv"]
+[ext_resource type="Texture2D" uid="uid://dd5bv0o06elf6" path="res://assets/object/carpet_1.png" id="2_w14av"]
+[ext_resource type="Texture2D" uid="uid://caadihm2kvw5s" path="res://assets/object/carpet_2.jpg" id="3_ce4gl"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q40rj"]
+resource_name = "SM_Carpet0102"
+cull_mode = 2
+albedo_texture = ExtResource("1_ls6fv")
+metallic = 1.0
+metallic_texture = ExtResource("2_w14av")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_w14av")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_ce4gl")
+ao_enabled = true
+ao_texture = ExtResource("2_w14av")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_p7hy6"]
+_surfaces = [{
+"aabb": AABB(-447.169, -0.139737, 1063.86, 894.337, 2.9, 545.405),
+"format": 34896613377,
+"index_count": 30,
+"index_data": PackedByteArray("AAABAAIAAQADAAIAAgADAAQAAgAEAAAAAQAFAAMAAAAEAAYABwAFAAEAAAAHAAEABwAGAAUAAAAGAAcA"),
+"name": "SM_Carpet0102",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("1AD//6L+AAAq////XAEAACr///+i/gAA//8AAP//AAAAAAAA//8AAP//AAAAAAAAAAAAAAAAAADUAP//XAEAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_l8elu"]
+resource_name = "Sketchfab_Scene_SM_Carpet_01_SM_Carpet0102_0"
+_surfaces = [{
+"aabb": AABB(-447.169, -0.139737, 1063.86, 894.337, 2.9, 545.405),
+"attribute_data": PackedByteArray("ugME2gN9TA7zAWAPSAFyDqt9Ww3MArDaAwG5Dsp+8NjxfaENu3+X2XZ/3tkTA/Xa"),
+"format": 34896613399,
+"index_count": 30,
+"index_data": PackedByteArray("AAABAAIAAQADAAIAAQAEAAMAAgAFAAAAAgAGAAUAAAAHAAEABwAIAAEABwAJAAgAAAAKAAcAAAALAAoA"),
+"material": SubResource("StandardMaterial3D_q40rj"),
+"name": "SM_Carpet0102",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("1AD//6L+cdUq////XAGT1Sr///+i/lHV//8AAP//j7///wAAAACq3QAAAAD//8jN//8AAP//S8fUAP//XAHg1f//AAAAAKXaAAAAAAAAZ+0AAAAAAAC96AAAAAD//1PWdNVpKv3UfSol1SwqsNNOHovCCSqs6fUqodIVFzDVgyofx+EyP9MqMcXYODgW5iEl")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_p7hy6")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+
+[node name="SM_Carpet_01" type="Node3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1182.56)
+
+[node name="SM_Carpet_01_SM_Carpet0102_0" type="MeshInstance3D" parent="StaticBody3D/SM_Carpet_01"]
+mesh = SubResource("ArrayMesh_l8elu")
+skeleton = NodePath("")

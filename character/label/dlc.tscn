@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3 uid="uid://b66xh0m2xka1s"]
+
+[ext_resource type="FontFile" uid="uid://b14vctlmmvb0r" path="res://font/KC Nightmare.ttf" id="1_qn64h"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_hed7s"]
+font = ExtResource("1_qn64h")
+font_size = 60
+font_color = Color(1, 0, 0, 1)
+
+[node name="dlc" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1168.0
+offset_bottom = 670.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 290.0
+offset_top = 307.0
+offset_right = 872.0
+offset_bottom = 354.0
+text = "ติดต่อผู้ขายเพื่อซื้อส่วนเสริมเกม"
+label_settings = SubResource("LabelSettings_hed7s")

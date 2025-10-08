@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://gq244e6xulnc"]
+
+[ext_resource type="FontFile" uid="uid://bxrcnifikqq60" path="res://assets/font/KC Nightmare.ttf" id="1_jq2fj"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_y1l5f"]
+font = ExtResource("1_jq2fj")
+font_size = 140
+
+[node name="close_door" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 848.0
+offset_top = 295.0
+offset_right = 1050.0
+offset_bottom = 436.0
+scale = Vector2(0.5, 0.5)
+text = "[i] Close"
+label_settings = SubResource("LabelSettings_y1l5f")

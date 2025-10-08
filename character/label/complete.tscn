@@ -1,0 +1,66 @@
+[gd_scene load_steps=9 format=3 uid="uid://y6d1lrm8tira"]
+
+[ext_resource type="FontFile" uid="uid://b14vctlmmvb0r" path="res://font/KC Nightmare.ttf" id="1_bx0ud"]
+[ext_resource type="Script" uid="uid://c1ai6vsmsodid" path="res://character/label/complete.gd" id="1_ogllr"]
+[ext_resource type="PackedScene" uid="uid://c40k8jugp5l0c" path="res://menu/menu.tscn" id="2_qjfjl"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ogllr"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qjfjl"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gyrdt"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qqck7"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="LabelSettings" id="LabelSettings_72yir"]
+font = ExtResource("1_bx0ud")
+font_size = 120
+font_color = Color(1, 0, 0, 1)
+
+[node name="Complete" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ogllr")
+menu = ExtResource("2_qjfjl")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1159.0
+offset_bottom = 657.0
+color = Color(0, 0, 0, 1)
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 0
+offset_left = 455.0
+offset_top = 350.0
+offset_right = 673.0
+offset_bottom = 397.0
+theme_override_colors/font_hover_color = Color(1, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_bx0ud")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_ogllr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_qjfjl")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_gyrdt")
+theme_override_styles/normal = SubResource("StyleBoxFlat_qqck7")
+text = "กลับไปที่เมนู"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 309.0
+offset_top = 150.0
+offset_right = 1412.0
+offset_bottom = 243.0
+scale = Vector2(0.5, 0.5)
+text = "คุณรอด… แต่ยังไม่ปลอดภัย…"
+label_settings = SubResource("LabelSettings_72yir")
+
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]

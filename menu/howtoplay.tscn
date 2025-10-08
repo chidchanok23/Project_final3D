@@ -1,0 +1,222 @@
+[gd_scene load_steps=8 format=3 uid="uid://b52kp3dxquwex"]
+
+[ext_resource type="Script" uid="uid://dm25gdvc6g6tp" path="res://howtoplay.gd" id="1_crc0n"]
+[ext_resource type="Texture2D" uid="uid://dangc7o3tup7d" path="res://menu/mainmenu.png" id="2_2s735"]
+[ext_resource type="FontFile" uid="uid://bxrcnifikqq60" path="res://world/assets/font/KC Nightmare.ttf" id="3_sp2yv"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0w6en"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7s5a6"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g8i70"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w7vnh"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[node name="Howtoplay" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_crc0n")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_2s735")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 576.0
+offset_top = 52.0
+offset_right = 1113.0
+offset_bottom = 531.0
+color = Color(0.0214346, 0.0214346, 0.0214346, 0.301961)
+
+[node name="collet item" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -389.0
+offset_top = 229.0
+offset_right = -75.0
+offset_bottom = 262.0
+grow_horizontal = 0
+theme_override_fonts/font = ExtResource("3_sp2yv")
+theme_override_font_sizes/font_size = 40
+text = "เก็บของ / เปิดและปิดประตู"
+horizontal_alignment = 1
+
+[node name="walk" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -290.0
+offset_top = 115.0
+offset_right = -217.0
+offset_bottom = 146.0
+grow_horizontal = 0
+theme_override_fonts/font = ExtResource("3_sp2yv")
+theme_override_font_sizes/font_size = 40
+text = "เดิน"
+horizontal_alignment = 1
+
+[node name="I" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -540.0
+offset_top = 228.0
+offset_right = -398.0
+offset_bottom = 266.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(0.905882, 0.00784314, 0.0156863, 1)
+theme_override_fonts/font = ExtResource("3_sp2yv")
+theme_override_font_sizes/font_size = 40
+text = "I"
+horizontal_alignment = 1
+
+[node name="wasd" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -539.0
+offset_top = 71.0
+offset_right = -397.0
+offset_bottom = 170.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(0.729412, 0.0156863, 0.0196078, 1)
+theme_override_fonts/font = ExtResource("3_sp2yv")
+theme_override_font_sizes/font_size = 40
+text = "W
+
+A   S   D"
+horizontal_alignment = 1
+
+[node name="m" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -540.0
+offset_top = 297.0
+offset_right = -398.0
+offset_bottom = 335.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(0.92549, 0.00784314, 0.0117647, 1)
+theme_override_fonts/font = ExtResource("3_sp2yv")
+theme_override_font_sizes/font_size = 40
+text = "M"
+horizontal_alignment = 1
+
+[node name="holy" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -423.0
+offset_top = 298.0
+offset_right = -109.0
+offset_bottom = 331.0
+grow_horizontal = 0
+theme_override_fonts/font = ExtResource("3_sp2yv")
+theme_override_font_sizes/font_size = 40
+text = "ใช้น้ำมนต์ดูผี"
+horizontal_alignment = 1
+
+[node name="shirt" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -538.0
+offset_top = 363.0
+offset_right = -396.0
+offset_bottom = 401.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(0.921569, 0.00784314, 0.00784314, 1)
+theme_override_fonts/font = ExtResource("3_sp2yv")
+theme_override_font_sizes/font_size = 40
+text = "shift"
+horizontal_alignment = 1
+
+[node name="esc" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -539.0
+offset_top = 430.0
+offset_right = -397.0
+offset_bottom = 468.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(0.929412, 0.00784314, 0.0196078, 1)
+theme_override_fonts/font = ExtResource("3_sp2yv")
+theme_override_font_sizes/font_size = 40
+text = "ESC"
+horizontal_alignment = 1
+
+[node name="run" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -413.0
+offset_top = 360.0
+offset_right = -99.0
+offset_bottom = 393.0
+grow_horizontal = 0
+theme_override_fonts/font = ExtResource("3_sp2yv")
+theme_override_font_sizes/font_size = 40
+text = "วิ่ง"
+horizontal_alignment = 1
+
+[node name="menu_open" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -388.0
+offset_top = 430.0
+offset_right = -74.0
+offset_bottom = 463.0
+grow_horizontal = 0
+theme_override_fonts/font = ExtResource("3_sp2yv")
+theme_override_font_sizes/font_size = 40
+text = "เปิดหน้าเมนูระหว่างเกม"
+horizontal_alignment = 1
+
+[node name="back" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 238.0
+offset_top = 234.0
+offset_right = 353.0
+offset_bottom = 277.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_hover_color = Color(1, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_sp2yv")
+theme_override_font_sizes/font_size = 35
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_0w6en")
+theme_override_styles/hover = SubResource("StyleBoxFlat_7s5a6")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_g8i70")
+theme_override_styles/normal = SubResource("StyleBoxFlat_w7vnh")
+text = "BACK"
+
+[connection signal="pressed" from="back" to="." method="_on_back_pressed"]

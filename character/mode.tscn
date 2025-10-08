@@ -1,0 +1,132 @@
+[gd_scene load_steps=16 format=3 uid="uid://bwt7ys5whr8td"]
+
+[ext_resource type="FontFile" uid="uid://b14vctlmmvb0r" path="res://font/KC Nightmare.ttf" id="1_fir16"]
+[ext_resource type="Script" uid="uid://rcv7dgh14phx" path="res://character/mode.gd" id="1_hk3a7"]
+[ext_resource type="Texture2D" uid="uid://w8ux5ltiah64" path="res://img/mode.png" id="2_hok2w"]
+[ext_resource type="Texture2D" uid="uid://dtd2prsa2y08h" path="res://img/lock_img.png" id="4_an76a"]
+[ext_resource type="PackedScene" uid="uid://b66xh0m2xka1s" path="res://character/label/dlc.tscn" id="5_uy1wp"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uy1wp"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hok2w"]
+bg_color = Color(0, 0, 0, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_06nbw"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hk3a7"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1cjt6"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ssmee"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6mn5b"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pq1bf"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_an76a"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x33x4"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[node name="Mode" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_hk3a7")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1161.0
+offset_bottom = 665.0
+texture = ExtResource("2_hok2w")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1158.0
+offset_bottom = 665.0
+color = Color(0, 0, 0, 0.603922)
+
+[node name="easy" type="Button" parent="."]
+layout_mode = 0
+offset_left = 81.0
+offset_top = 368.0
+offset_right = 239.0
+offset_bottom = 461.0
+scale = Vector2(0.5, 0.5)
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_fir16")
+theme_override_font_sizes/font_size = 120
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_uy1wp")
+theme_override_styles/hover = SubResource("StyleBoxFlat_hok2w")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_06nbw")
+theme_override_styles/normal = SubResource("StyleBoxFlat_hk3a7")
+text = "ง่าย"
+
+[node name="normal" type="Button" parent="."]
+layout_mode = 0
+offset_left = 83.0
+offset_top = 457.0
+offset_right = 449.0
+offset_bottom = 550.0
+scale = Vector2(0.5, 0.5)
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_fir16")
+theme_override_font_sizes/font_size = 120
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_1cjt6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ssmee")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_6mn5b")
+theme_override_styles/normal = SubResource("StyleBoxFlat_hk3a7")
+text = "ปานกลาง"
+
+[node name="hard" type="Button" parent="."]
+layout_mode = 0
+offset_left = 82.0
+offset_top = 550.0
+offset_right = 244.0
+offset_bottom = 643.0
+scale = Vector2(0.5, 0.5)
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_fir16")
+theme_override_font_sizes/font_size = 120
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_pq1bf")
+theme_override_styles/hover = SubResource("StyleBoxFlat_an76a")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_x33x4")
+theme_override_styles/normal = SubResource("StyleBoxFlat_hk3a7")
+text = "ยาก"
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 149.0
+offset_top = 389.0
+offset_right = 1229.0
+offset_bottom = 1469.0
+scale = Vector2(0.02, 0.02)
+texture = ExtResource("4_an76a")
+
+[node name="TextureRect3" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 151.0
+offset_top = 570.0
+offset_right = 1231.0
+offset_bottom = 1650.0
+scale = Vector2(0.02, 0.02)
+texture = ExtResource("4_an76a")
+
+[node name="dlc" parent="." instance=ExtResource("5_uy1wp")]
+visible = false
+layout_mode = 1
+
+[connection signal="pressed" from="easy" to="." method="_on_easy_pressed"]
+[connection signal="pressed" from="normal" to="." method="_on_normal_pressed"]
+[connection signal="pressed" from="hard" to="." method="_on_hard_pressed"]

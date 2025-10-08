@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b806nqhkhxhh"]
+
+[ext_resource type="PackedScene" uid="uid://cb0befr8pwm5x" path="res://assets/object/window/windows_-_marmoka.glb" id="1_blqmu"]
+
+[node name="Sketchfab_Scene" instance=ExtResource("1_blqmu")]
+
+[node name="RootNode" parent="Sketchfab_model/c7f58693d1f649f2ade304d1fc8f827a_fbx" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 200, 0)

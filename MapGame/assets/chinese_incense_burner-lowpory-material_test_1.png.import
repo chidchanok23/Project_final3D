@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bmyfjqwbms4yk"
+path.s3tc="res://.godot/imported/chinese_incense_burner-lowpory-material_test_1.png-729806301a0e6c2f7267d1aa8d298b39.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "be4c1da6cf47b4bf2e954b637e15995b"
+}
+
+[deps]
+
+source_file="res://assets/chinese_incense_burner-lowpory-material_test_1.png"
+dest_files=["res://.godot/imported/chinese_incense_burner-lowpory-material_test_1.png-729806301a0e6c2f7267d1aa8d298b39.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=8
+roughness/src_normal="res://assets/chinese_incense_burner-lowpory-material_test_3.png"
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

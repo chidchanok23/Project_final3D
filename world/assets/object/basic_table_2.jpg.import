@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b1241srix6spn"
+path.s3tc="res://.godot/imported/basic_table_2.jpg-77c8c643c9d668f678178bfe0d0444bc.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "0235bf31b36272b2498b66cd971557a9"
+}
+
+[deps]
+
+source_file="res://world/assets/object/basic_table_2.jpg"
+dest_files=["res://.godot/imported/basic_table_2.jpg-77c8c643c9d668f678178bfe0d0444bc.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=1
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=1
+roughness/src_normal="res://assets/object/basic_table_2.jpg"
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

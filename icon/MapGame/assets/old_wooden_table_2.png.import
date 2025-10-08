@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c22rdyi3jsgox"
+path.s3tc="res://.godot/imported/old_wooden_table_2.png-a634e1ff1ac2f42c40799f18186b9bb5.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "130a5753cfee74de17f4d65eba881117"
+}
+
+[deps]
+
+source_file="res://assets/old_wooden_table_2.png"
+dest_files=["res://.godot/imported/old_wooden_table_2.png-a634e1ff1ac2f42c40799f18186b9bb5.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=1
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=1
+roughness/src_normal="res://assets/old_wooden_table_2.png"
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

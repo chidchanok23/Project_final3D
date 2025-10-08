@@ -1,0 +1,137 @@
+[gd_scene load_steps=5 format=3 uid="uid://b3qhbswrb77b2"]
+
+[ext_resource type="Texture2D" uid="uid://dangc7o3tup7d" path="res://menu/mainmenu.png" id="1_pxoo3"]
+[ext_resource type="Script" uid="uid://hl8h6fgj25pi" path="res://menu/control.gd" id="1_vloy4"]
+[ext_resource type="FontFile" uid="uid://bxrcnifikqq60" path="res://world/assets/font/KC Nightmare.ttf" id="2_vloy4"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j4um5"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[node name="credit" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vloy4")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_pxoo3")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 606.0
+offset_top = 154.0
+offset_right = 1097.0
+offset_bottom = 437.0
+color = Color(0.0214346, 0.0214346, 0.0214346, 0.301961)
+
+[node name="name" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 41.0
+offset_top = -154.0
+offset_right = 524.0
+offset_bottom = -107.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_vloy4")
+theme_override_font_sizes/font_size = 27
+text = "673380024-0 นางสาวกนกพร บุญครอง "
+
+[node name="name2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 42.0
+offset_top = -112.0
+offset_right = 525.0
+offset_bottom = -65.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_vloy4")
+theme_override_font_sizes/font_size = 27
+text = "673380033-9 นางสาวชิดชนก ชนะพา"
+
+[node name="name3" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 42.0
+offset_top = -69.0
+offset_right = 525.0
+offset_bottom = -22.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_vloy4")
+theme_override_font_sizes/font_size = 27
+text = "673380034-7 นางสาวญาทิชา จันทรศรีสุริยวงศ์"
+
+[node name="name4" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 42.0
+offset_top = -23.0
+offset_right = 525.0
+offset_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_vloy4")
+theme_override_font_sizes/font_size = 27
+text = "673380516-9 นายศวัสกร แว่นแก้ว"
+
+[node name="name5" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 42.0
+offset_top = 57.0
+offset_right = 525.0
+offset_bottom = 104.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_vloy4")
+theme_override_font_sizes/font_size = 27
+text = "วิทยาการคอมพิวเตอร์"
+horizontal_alignment = 1
+
+[node name="back" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 212.0
+offset_top = 131.0
+offset_right = 352.0
+offset_bottom = 184.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_vloy4")
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_j4um5")
+text = "BACK"
+
+[connection signal="pressed" from="back" to="." method="_on_back_pressed"]
