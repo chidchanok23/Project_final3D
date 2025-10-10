@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ddsmw4yo5iofv"
-path="res://.godot/imported/psx-inspired_low-poly_old_crate.glb-1656bfe6931f6a676417c299861e7b33.scn"
+path="res://.godot/imported/psx-inspired_low-poly_old_crate.glb-a08ad8448bdd98b9aff38ec5a9a09d6c.scn"
 
 [deps]
 
-source_file="res://world/assets/object/psx-inspired_low-poly_old_crate.glb"
-dest_files=["res://.godot/imported/psx-inspired_low-poly_old_crate.glb-1656bfe6931f6a676417c299861e7b33.scn"]
+source_file="res://assets/object/psx-inspired_low-poly_old_crate.glb"
+dest_files=["res://.godot/imported/psx-inspired_low-poly_old_crate.glb-a08ad8448bdd98b9aff38ec5a9a09d6c.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfcnx6y8tmkc"
-path.s3tc="res://.godot/imported/covered_boat_low-poly_1.png-071ae1bbd83048711423a58a9a224152.s3tc.ctex"
+path.s3tc="res://.godot/imported/covered_boat_low-poly_1.png-5827fa3c8b2a9106da20213cbcbe1c79.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/covered_boat_low-poly_1.png"
-dest_files=["res://.godot/imported/covered_boat_low-poly_1.png-071ae1bbd83048711423a58a9a224152.s3tc.ctex"]
+source_file="res://assets/object/covered_boat_low-poly_1.png"
+dest_files=["res://.godot/imported/covered_boat_low-poly_1.png-5827fa3c8b2a9106da20213cbcbe1c79.s3tc.ctex"]
 
 [params]
 

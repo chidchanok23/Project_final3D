@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bg8ef33s3wulr"
-path.s3tc="res://.godot/imported/old_bed_-_low-poly_game_asset_0.png-c3991bbb944ecd92a98fae055a8c7962.s3tc.ctex"
+path.s3tc="res://.godot/imported/old_bed_-_low-poly_game_asset_0.png-b29bdbfc906d82d3f80a0588e6ff434f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/old_bed_-_low-poly_game_asset_0.png"
-dest_files=["res://.godot/imported/old_bed_-_low-poly_game_asset_0.png-c3991bbb944ecd92a98fae055a8c7962.s3tc.ctex"]
+source_file="res://assets/object/old_bed_-_low-poly_game_asset_0.png"
+dest_files=["res://.godot/imported/old_bed_-_low-poly_game_asset_0.png-b29bdbfc906d82d3f80a0588e6ff434f.s3tc.ctex"]
 
 [params]
 

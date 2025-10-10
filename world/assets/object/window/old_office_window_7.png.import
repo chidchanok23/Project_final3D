@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c723qokbg24ld"
-path.s3tc="res://.godot/imported/old_office_window_7.png-c2339e1d5efc64e169e1df70d1187075.s3tc.ctex"
+path.s3tc="res://.godot/imported/old_office_window_7.png-760ab4d8873dd1bb517762d389e61024.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/window/old_office_window_7.png"
-dest_files=["res://.godot/imported/old_office_window_7.png-c2339e1d5efc64e169e1df70d1187075.s3tc.ctex"]
+source_file="res://assets/object/window/old_office_window_7.png"
+dest_files=["res://.godot/imported/old_office_window_7.png-760ab4d8873dd1bb517762d389e61024.s3tc.ctex"]
 
 [params]
 

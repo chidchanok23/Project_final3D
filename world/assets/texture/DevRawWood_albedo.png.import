@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3xf733ftqdf3"
-path.s3tc="res://.godot/imported/DevRawWood_albedo.png-bf3ee553d94b16ed37466e39d5a8c82e.s3tc.ctex"
+path.s3tc="res://.godot/imported/DevRawWood_albedo.png-89bfed00ca2351f95f0a9de4c2b35b66.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://world/assets/texture/DevRawWood_albedo.png"
-dest_files=["res://.godot/imported/DevRawWood_albedo.png-bf3ee553d94b16ed37466e39d5a8c82e.s3tc.ctex"]
+source_file="res://assets/texture/DevRawWood_albedo.png"
+dest_files=["res://.godot/imported/DevRawWood_albedo.png-89bfed00ca2351f95f0a9de4c2b35b66.s3tc.ctex"]
 
 [params]
 

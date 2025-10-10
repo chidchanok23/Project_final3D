@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dp83ctf7oqhqv"
-path.s3tc="res://.godot/imported/wardrobe_0.png-b526dc11cf96007ff58b06515248d1af.s3tc.ctex"
+path.s3tc="res://.godot/imported/wardrobe_0.png-877bb5b165caff02309c0e316a132b91.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/wordrobe/wardrobe_0.png"
-dest_files=["res://.godot/imported/wardrobe_0.png-b526dc11cf96007ff58b06515248d1af.s3tc.ctex"]
+source_file="res://assets/object/wordrobe/wardrobe_0.png"
+dest_files=["res://.godot/imported/wardrobe_0.png-877bb5b165caff02309c0e316a132b91.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://beyg81ldw3btf"
-path="res://.godot/imported/abandoned_mansion_bedroom.glb-ddd396f3bc2cf0b60b3ff43d1e72cef2.scn"
+path="res://.godot/imported/abandoned_mansion_bedroom.glb-543a84b7b3d3823fe900941553070802.scn"
 
 [deps]
 
-source_file="res://world/assets/object/abandoned_mansion_bedroom.glb"
-dest_files=["res://.godot/imported/abandoned_mansion_bedroom.glb-ddd396f3bc2cf0b60b3ff43d1e72cef2.scn"]
+source_file="res://assets/object/abandoned_mansion_bedroom.glb"
+dest_files=["res://.godot/imported/abandoned_mansion_bedroom.glb-543a84b7b3d3823fe900941553070802.scn"]
 
 [params]
 

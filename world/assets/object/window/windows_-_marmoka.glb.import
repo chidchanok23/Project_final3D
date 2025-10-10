@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cb0befr8pwm5x"
-path="res://.godot/imported/windows_-_marmoka.glb-cd3b461b24c4e7d527e2f6a76f8c7b97.scn"
+path="res://.godot/imported/windows_-_marmoka.glb-7149694b83b9643f3c9f7f76075a9152.scn"
 
 [deps]
 
-source_file="res://world/assets/object/window/windows_-_marmoka.glb"
-dest_files=["res://.godot/imported/windows_-_marmoka.glb-cd3b461b24c4e7d527e2f6a76f8c7b97.scn"]
+source_file="res://assets/object/window/windows_-_marmoka.glb"
+dest_files=["res://.godot/imported/windows_-_marmoka.glb-7149694b83b9643f3c9f7f76075a9152.scn"]
 
 [params]
 

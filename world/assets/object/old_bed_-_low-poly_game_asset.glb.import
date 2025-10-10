@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ccd5fbstf7tn3"
-path="res://.godot/imported/old_bed_-_low-poly_game_asset.glb-877b29ef036c4cf96ca8b6d43583b782.scn"
+path="res://.godot/imported/old_bed_-_low-poly_game_asset.glb-94450335c89573e2632c4ddb4cf0dd8e.scn"
 
 [deps]
 
-source_file="res://world/assets/object/old_bed_-_low-poly_game_asset.glb"
-dest_files=["res://.godot/imported/old_bed_-_low-poly_game_asset.glb-877b29ef036c4cf96ca8b6d43583b782.scn"]
+source_file="res://assets/object/old_bed_-_low-poly_game_asset.glb"
+dest_files=["res://.godot/imported/old_bed_-_low-poly_game_asset.glb-94450335c89573e2632c4ddb4cf0dd8e.scn"]
 
 [params]
 

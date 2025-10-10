@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bmkafrsyci13f"
-path="res://.godot/imported/wooden_bed.glb-76dd7e6fdc741d20c572fd50fa9c3257.scn"
+path="res://.godot/imported/wooden_bed.glb-a3c3b5342ae491a74d876b46a1f186c2.scn"
 
 [deps]
 
-source_file="res://world/assets/object/wooden_bed.glb"
-dest_files=["res://.godot/imported/wooden_bed.glb-76dd7e6fdc741d20c572fd50fa9c3257.scn"]
+source_file="res://assets/object/wooden_bed.glb"
+dest_files=["res://.godot/imported/wooden_bed.glb-a3c3b5342ae491a74d876b46a1f186c2.scn"]
 
 [params]
 

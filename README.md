@@ -1,14 +1,3 @@
-วิชา Computer Game Development
-
-
-**สมาชิกในกลุ่ม**
-1. 673380024-0 นางสาวกนกพร บุญครอง สาขา CS
-2. 673380033-9 นางสาวชิดชนก ชนะพา สาขา CS
-3. 673380034-7 นางสาวญาทิชา จันทรศรีสุริยวงศ์ สาขา CS
-4. 673380516-9 นายศวัสกร แว่นแก้ว สาขา CS
-
-ชื่อเกม : เขตแดนต้องห้าม
-
 # Mixamo Animation Retargeter for Godot 4.3
 
 This plugin simplifies the process of importing and retargeting Mixamo animations in Godot 4.x projects.

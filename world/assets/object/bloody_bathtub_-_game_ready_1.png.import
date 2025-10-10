@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgg358optihpy"
-path.s3tc="res://.godot/imported/bloody_bathtub_-_game_ready_1.png-368e61b58c2b900711617c1d5adeb066.s3tc.ctex"
+path.s3tc="res://.godot/imported/bloody_bathtub_-_game_ready_1.png-8a34c42b3f18a33e76f5812094e22168.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/bloody_bathtub_-_game_ready_1.png"
-dest_files=["res://.godot/imported/bloody_bathtub_-_game_ready_1.png-368e61b58c2b900711617c1d5adeb066.s3tc.ctex"]
+source_file="res://assets/object/bloody_bathtub_-_game_ready_1.png"
+dest_files=["res://.godot/imported/bloody_bathtub_-_game_ready_1.png-8a34c42b3f18a33e76f5812094e22168.s3tc.ctex"]
 
 [params]
 

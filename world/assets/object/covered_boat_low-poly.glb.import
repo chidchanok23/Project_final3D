@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b1nxewau6470j"
-path="res://.godot/imported/covered_boat_low-poly.glb-37123ed6770f4c5a72b967e519dd3d72.scn"
+path="res://.godot/imported/covered_boat_low-poly.glb-9e23a507cdf19b85204b0c87c0d46b46.scn"
 
 [deps]
 
-source_file="res://world/assets/object/covered_boat_low-poly.glb"
-dest_files=["res://.godot/imported/covered_boat_low-poly.glb-37123ed6770f4c5a72b967e519dd3d72.scn"]
+source_file="res://assets/object/covered_boat_low-poly.glb"
+dest_files=["res://.godot/imported/covered_boat_low-poly.glb-9e23a507cdf19b85204b0c87c0d46b46.scn"]
 
 [params]
 

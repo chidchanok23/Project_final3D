@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cl2sg6ffxu8sb"
-path="res://.godot/imported/man_ghost_complete_texture.fbx-9b040072045e1e52e7b955e902bb2752.scn"
+path="res://.godot/imported/man_ghost_complete_texture.fbx-da5428d32be3c56c7430c59e3e1e133e.scn"
 
 [deps]
 
-source_file="res://charecter/man_ghost_complete_texture.fbx"
-dest_files=["res://.godot/imported/man_ghost_complete_texture.fbx-9b040072045e1e52e7b955e902bb2752.scn"]
+source_file="res://world/charecter/man_ghost_complete_texture.fbx"
+dest_files=["res://.godot/imported/man_ghost_complete_texture.fbx-da5428d32be3c56c7430c59e3e1e133e.scn"]
 
 [params]
 

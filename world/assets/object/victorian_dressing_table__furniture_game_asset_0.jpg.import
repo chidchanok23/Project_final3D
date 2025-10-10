@@ -3,19 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cw5gbwg7ohi51"
-path.s3tc="res://.godot/imported/victorian_dressing_table__furniture_game_asset_0.jpg-36e6981e193c4da685d57bc9de37a17c.s3tc.ctex"
+path.s3tc="res://.godot/imported/victorian_dressing_table__furniture_game_asset_0.jpg-ce9cecfaccb7c77789a72435f89dac45.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "0674c37fa9ca5fc3ba3f4a584826777d"
+"md5": "4b1e26bcd7a7b765591c4cefceeb6f90"
 }
 
 [deps]
 
-source_file="res://world/assets/object/victorian_dressing_table__furniture_game_asset_0.jpg"
-dest_files=["res://.godot/imported/victorian_dressing_table__furniture_game_asset_0.jpg-36e6981e193c4da685d57bc9de37a17c.s3tc.ctex"]
+source_file="res://assets/object/victorian_dressing_table__furniture_game_asset_0.jpg"
+dest_files=["res://.godot/imported/victorian_dressing_table__furniture_game_asset_0.jpg-ce9cecfaccb7c77789a72435f89dac45.s3tc.ctex"]
 
 [params]
 

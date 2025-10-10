@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctbm7d5bbitl6"
-path.s3tc="res://.godot/imported/victorian_dressing_table__furniture_game_asset_4.png-a460664043adff0e280dfd8065ffcf15.s3tc.ctex"
+path.s3tc="res://.godot/imported/victorian_dressing_table__furniture_game_asset_4.png-43ad61d3d01524662d37cc9251c4cb5b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/victorian_dressing_table__furniture_game_asset_4.png"
-dest_files=["res://.godot/imported/victorian_dressing_table__furniture_game_asset_4.png-a460664043adff0e280dfd8065ffcf15.s3tc.ctex"]
+source_file="res://assets/object/victorian_dressing_table__furniture_game_asset_4.png"
+dest_files=["res://.godot/imported/victorian_dressing_table__furniture_game_asset_4.png-43ad61d3d01524662d37cc9251c4cb5b.s3tc.ctex"]
 
 [params]
 

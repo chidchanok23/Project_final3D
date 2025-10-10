@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vn52pbh2sxsf"
-path.s3tc="res://.godot/imported/abandoned_mansion_bedroom_9.png-b6a14a481782800a6297f3d1218f6483.s3tc.ctex"
+path.s3tc="res://.godot/imported/abandoned_mansion_bedroom_9.png-8c77b850f66bc34f8e602a419d22d142.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/abandoned_mansion_bedroom_9.png"
-dest_files=["res://.godot/imported/abandoned_mansion_bedroom_9.png-b6a14a481782800a6297f3d1218f6483.s3tc.ctex"]
+source_file="res://assets/object/abandoned_mansion_bedroom_9.png"
+dest_files=["res://.godot/imported/abandoned_mansion_bedroom_9.png-8c77b850f66bc34f8e602a419d22d142.s3tc.ctex"]
 
 [params]
 

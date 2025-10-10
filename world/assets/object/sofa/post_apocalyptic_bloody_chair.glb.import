@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ckbq6y4via6j4"
-path="res://.godot/imported/post_apocalyptic_bloody_chair.glb-e229dddbb7f407a72819587e67df16cc.scn"
+path="res://.godot/imported/post_apocalyptic_bloody_chair.glb-2742d793fad4719b9c81c89242ac378f.scn"
 
 [deps]
 
-source_file="res://world/assets/object/sofa/post_apocalyptic_bloody_chair.glb"
-dest_files=["res://.godot/imported/post_apocalyptic_bloody_chair.glb-e229dddbb7f407a72819587e67df16cc.scn"]
+source_file="res://assets/object/sofa/post_apocalyptic_bloody_chair.glb"
+dest_files=["res://.godot/imported/post_apocalyptic_bloody_chair.glb-2742d793fad4719b9c81c89242ac378f.scn"]
 
 [params]
 

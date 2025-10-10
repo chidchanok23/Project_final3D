@@ -3,19 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ct5st4y6b85qf"
-path.s3tc="res://.godot/imported/bloody_bathtub_-_game_ready_0.jpg-f5b9b1475bf8212b0a6af633c69e441a.s3tc.ctex"
+path.s3tc="res://.godot/imported/bloody_bathtub_-_game_ready_0.jpg-a7024403825683f42e10bd8d6fb4d2ea.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "2c899aabc86d59c0fa5da1a7409e8ba8"
+"md5": "837dcdc726a6124fcd06089376626006"
 }
 
 [deps]
 
-source_file="res://world/assets/object/bloody_bathtub_-_game_ready_0.jpg"
-dest_files=["res://.godot/imported/bloody_bathtub_-_game_ready_0.jpg-f5b9b1475bf8212b0a6af633c69e441a.s3tc.ctex"]
+source_file="res://assets/object/bloody_bathtub_-_game_ready_0.jpg"
+dest_files=["res://.godot/imported/bloody_bathtub_-_game_ready_0.jpg-a7024403825683f42e10bd8d6fb4d2ea.s3tc.ctex"]
 
 [params]
 

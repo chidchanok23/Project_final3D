@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://24ofcpr0if8m"
-path.s3tc="res://.godot/imported/tileset_atlas_n.png-bdd4271e246fb9c11a29dd2e51c2270f.s3tc.ctex"
+path.s3tc="res://.godot/imported/tileset_atlas_n.png-8546db03600a1f3650a035436f4b635c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/tileset/tileset_atlas_n.png"
-dest_files=["res://.godot/imported/tileset_atlas_n.png-bdd4271e246fb9c11a29dd2e51c2270f.s3tc.ctex"]
+source_file="res://assets/tileset/tileset_atlas_n.png"
+dest_files=["res://.godot/imported/tileset_atlas_n.png-8546db03600a1f3650a035436f4b635c.s3tc.ctex"]
 
 [params]
 

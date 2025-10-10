@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3r3ht7sx05rc"
-path.s3tc="res://.godot/imported/wash_basin_haunted_2.png-859b8c0c1fbcd3b3560327a40379f9a0.s3tc.ctex"
+path.s3tc="res://.godot/imported/wash_basin_haunted_2.png-c827b1302482dc06ab1301b472cee5ad.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/wash_basin_haunted_2.png"
-dest_files=["res://.godot/imported/wash_basin_haunted_2.png-859b8c0c1fbcd3b3560327a40379f9a0.s3tc.ctex"]
+source_file="res://assets/object/wash_basin_haunted_2.png"
+dest_files=["res://.godot/imported/wash_basin_haunted_2.png-c827b1302482dc06ab1301b472cee5ad.s3tc.ctex"]
 
 [params]
 

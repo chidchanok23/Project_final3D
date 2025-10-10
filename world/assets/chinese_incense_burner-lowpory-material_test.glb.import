@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://mlr6opk2cmnb"
-path="res://.godot/imported/chinese_incense_burner-lowpory-material_test.glb-bd2a008e492b3cf7e0133b35744d2547.scn"
+path="res://.godot/imported/chinese_incense_burner-lowpory-material_test.glb-822cee2e90d5c55899adba60eb1fa46b.scn"
 
 [deps]
 
-source_file="res://world/assets/chinese_incense_burner-lowpory-material_test.glb"
-dest_files=["res://.godot/imported/chinese_incense_burner-lowpory-material_test.glb-bd2a008e492b3cf7e0133b35744d2547.scn"]
+source_file="res://assets/chinese_incense_burner-lowpory-material_test.glb"
+dest_files=["res://.godot/imported/chinese_incense_burner-lowpory-material_test.glb-822cee2e90d5c55899adba60eb1fa46b.scn"]
 
 [params]
 

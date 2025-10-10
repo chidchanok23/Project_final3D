@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2xa71bslx452"
-path.s3tc="res://.godot/imported/abandoned_furniture_0.png-365d15850a6aef9d89db6e01f3c5fc57.s3tc.ctex"
+path.s3tc="res://.godot/imported/abandoned_furniture_0.png-1d8a502ca8b4d7d2e121888a2c51a3cd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/abandoned_furniture_0.png"
-dest_files=["res://.godot/imported/abandoned_furniture_0.png-365d15850a6aef9d89db6e01f3c5fc57.s3tc.ctex"]
+source_file="res://assets/object/abandoned_furniture_0.png"
+dest_files=["res://.godot/imported/abandoned_furniture_0.png-1d8a502ca8b4d7d2e121888a2c51a3cd.s3tc.ctex"]
 
 [params]
 

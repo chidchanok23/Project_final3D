@@ -3,19 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjpawf7prun7h"
-path.s3tc="res://.godot/imported/chinese_incense_burner-lowpory-material_test_2.jpg-4cee23c82d6cc48ada45fea976621e03.s3tc.ctex"
+path.s3tc="res://.godot/imported/chinese_incense_burner-lowpory-material_test_2.jpg-17e310c52d42113f2594a4a66672d7dc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "1a8b8fd21bdbfbe6d6309a8363479506"
+"md5": "0d955618ffb2d8a0b1896d75e41aee0c"
 }
 
 [deps]
 
-source_file="res://world/assets/chinese_incense_burner-lowpory-material_test_2.jpg"
-dest_files=["res://.godot/imported/chinese_incense_burner-lowpory-material_test_2.jpg-4cee23c82d6cc48ada45fea976621e03.s3tc.ctex"]
+source_file="res://assets/chinese_incense_burner-lowpory-material_test_2.jpg"
+dest_files=["res://.godot/imported/chinese_incense_burner-lowpory-material_test_2.jpg-17e310c52d42113f2594a4a66672d7dc.s3tc.ctex"]
 
 [params]
 

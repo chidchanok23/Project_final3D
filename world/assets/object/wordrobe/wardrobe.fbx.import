@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cc365mjn6db58"
-path="res://.godot/imported/wardrobe.fbx-06ffa20c2e7e7d974bde945f2fab7f1b.scn"
+path="res://.godot/imported/wardrobe.fbx-ab8b3543284a4a67f953d71fa95a97f5.scn"
 
 [deps]
 
-source_file="res://world/assets/object/wordrobe/wardrobe.fbx"
-dest_files=["res://.godot/imported/wardrobe.fbx-06ffa20c2e7e7d974bde945f2fab7f1b.scn"]
+source_file="res://assets/object/wordrobe/wardrobe.fbx"
+dest_files=["res://.godot/imported/wardrobe.fbx-ab8b3543284a4a67f953d71fa95a97f5.scn"]
 
 [params]
 

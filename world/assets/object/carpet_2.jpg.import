@@ -3,19 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://caadihm2kvw5s"
-path.s3tc="res://.godot/imported/carpet_2.jpg-0fb56a165eea68436043a77a2c8d7b94.s3tc.ctex"
+path.s3tc="res://.godot/imported/carpet_2.jpg-0676f979734adfcdadcd79ec6ef03996.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "f0a8f9f0d2b99dd936d9eb0687d02000"
+"md5": "1537cd02ec071cc105e2d0ee1b9834e0"
 }
 
 [deps]
 
-source_file="res://world/assets/object/carpet_2.jpg"
-dest_files=["res://.godot/imported/carpet_2.jpg-0fb56a165eea68436043a77a2c8d7b94.s3tc.ctex"]
+source_file="res://assets/object/carpet_2.jpg"
+dest_files=["res://.godot/imported/carpet_2.jpg-0676f979734adfcdadcd79ec6ef03996.s3tc.ctex"]
 
 [params]
 

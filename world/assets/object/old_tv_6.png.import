@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7jmsortssp1j"
-path.s3tc="res://.godot/imported/old_tv_6.png-c5190b8925bcf59766688d33f2edc521.s3tc.ctex"
+path.s3tc="res://.godot/imported/old_tv_6.png-a78c1ef86e4d3254701a795d07f5d709.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/old_tv_6.png"
-dest_files=["res://.godot/imported/old_tv_6.png-c5190b8925bcf59766688d33f2edc521.s3tc.ctex"]
+source_file="res://assets/object/old_tv_6.png"
+dest_files=["res://.godot/imported/old_tv_6.png-a78c1ef86e4d3254701a795d07f5d709.s3tc.ctex"]
 
 [params]
 

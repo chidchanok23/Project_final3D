@@ -3,19 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ca87j8l2jegkq"
-path.s3tc="res://.godot/imported/old_furniture_0.jpg-cc2436b4f192fbb175665c8f32943bc0.s3tc.ctex"
+path.s3tc="res://.godot/imported/old_furniture_0.jpg-73d72fbe8534219de496f24cda593b28.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "4c610a301e0b65f450dc9b186068d2af"
+"md5": "5f7584629fe60fdf86c3780f1806ccf5"
 }
 
 [deps]
 
-source_file="res://world/assets/object/old_furniture_0.jpg"
-dest_files=["res://.godot/imported/old_furniture_0.jpg-cc2436b4f192fbb175665c8f32943bc0.s3tc.ctex"]
+source_file="res://assets/object/old_furniture_0.jpg"
+dest_files=["res://.godot/imported/old_furniture_0.jpg-73d72fbe8534219de496f24cda593b28.s3tc.ctex"]
 
 [params]
 

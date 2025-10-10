@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://berlk1n75nd6y"
-path="res://.godot/imported/wooden_big_bed_torn__0812081444_texture.glb-bf097676791eafadaeb91046e51bc4fc.scn"
+path="res://.godot/imported/wooden_big_bed_torn__0812081444_texture.glb-89bfbdc142eb765e710c77a5db7bbe80.scn"
 
 [deps]
 
-source_file="res://world/assets/object/wooden_big_bed_torn__0812081444_texture.glb"
-dest_files=["res://.godot/imported/wooden_big_bed_torn__0812081444_texture.glb-bf097676791eafadaeb91046e51bc4fc.scn"]
+source_file="res://assets/object/wooden_big_bed_torn__0812081444_texture.glb"
+dest_files=["res://.godot/imported/wooden_big_bed_torn__0812081444_texture.glb-89bfbdc142eb765e710c77a5db7bbe80.scn"]
 
 [params]
 

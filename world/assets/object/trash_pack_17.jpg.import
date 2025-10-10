@@ -3,19 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0lsmvmmt7l2j"
-path.s3tc="res://.godot/imported/trash_pack_17.jpg-25126dc533966bba484fe53929bf6faa.s3tc.ctex"
+path.s3tc="res://.godot/imported/trash_pack_17.jpg-1cc321d5fd108e2bcee8ed8b7e4989d4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "9752a70aad7f3d54be70ea1793301e9c"
+"md5": "5b28f2596ee6c51c6358626e100187bb"
 }
 
 [deps]
 
-source_file="res://world/assets/object/trash_pack_17.jpg"
-dest_files=["res://.godot/imported/trash_pack_17.jpg-25126dc533966bba484fe53929bf6faa.s3tc.ctex"]
+source_file="res://assets/object/trash_pack_17.jpg"
+dest_files=["res://.godot/imported/trash_pack_17.jpg-1cc321d5fd108e2bcee8ed8b7e4989d4.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkauu4el0gme2"
-path="res://.godot/imported/windows_-_marmoka_4.png-cbbba004ca323466578cb4475e98fc7f.ctex"
+path="res://.godot/imported/windows_-_marmoka_4.png-3edeeb0a553e73195dd502002bb123cc.ctex"
 metadata={
 "vram_texture": false
 }
@@ -13,8 +13,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/window/windows_-_marmoka_4.png"
-dest_files=["res://.godot/imported/windows_-_marmoka_4.png-cbbba004ca323466578cb4475e98fc7f.ctex"]
+source_file="res://assets/object/window/windows_-_marmoka_4.png"
+dest_files=["res://.godot/imported/windows_-_marmoka_4.png-3edeeb0a553e73195dd502002bb123cc.ctex"]
 
 [params]
 

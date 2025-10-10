@@ -1,17 +1,16 @@
-[gd_scene load_steps=25 format=4 uid="uid://dmrv88o2s5ek8"]
+[gd_scene load_steps=24 format=4 uid="uid://dmrv88o2s5ek8"]
 
-[ext_resource type="Texture2D" uid="uid://fgfovml3qy6i" path="res://world/assets/object/_door_Image_3.jpg" id="1_4vmlb"]
-[ext_resource type="Texture2D" uid="uid://bkgpasb1q3o4c" path="res://world/assets/object/_door_Image_4.png" id="2_3aapu"]
-[ext_resource type="Texture2D" uid="uid://gtuittfwr8mx" path="res://world/assets/object/_door_Image_5.png" id="3_vvrjh"]
-[ext_resource type="Texture2D" uid="uid://cdvnonppnfwx" path="res://world/assets/object/_door_Image_0.jpg" id="4_7hmxw"]
-[ext_resource type="Texture2D" uid="uid://c34na4eqths17" path="res://world/assets/object/_door_Image_1.png" id="5_sny10"]
-[ext_resource type="Texture2D" uid="uid://bgttsqqbp18ai" path="res://world/assets/object/_door_Image_2.png" id="6_qkv6n"]
-[ext_resource type="PackedScene" uid="uid://dva1m2tmwr0d6" path="res://world/assets/object/door/open_door.tscn" id="8_5svfv"]
-[ext_resource type="PackedScene" uid="uid://gq244e6xulnc" path="res://world/assets/object/door/close_door.tscn" id="9_8vhcr"]
-[ext_resource type="AudioStream" uid="uid://ox1qqtynyw28" path="res://world/assets/object/door_open.mp3" id="10_ie44u"]
-[ext_resource type="AudioStream" uid="uid://djbsylu1l2flr" path="res://world/assets/object/door_close.mp3" id="11_i6c63"]
-[ext_resource type="AudioStream" uid="uid://c4q1hoetcyfiq" path="res://door_lock.mp3" id="11_sts0g"]
-[ext_resource type="PackedScene" uid="uid://y6d1lrm8tira" path="res://character/label/complete.tscn" id="12_q5h3h"]
+[ext_resource type="Texture2D" uid="uid://fgfovml3qy6i" path="res://assets/object/_door_Image_3.jpg" id="1_4vmlb"]
+[ext_resource type="Script" path="res://assets/object/door/door.gd" id="1_mss3b"]
+[ext_resource type="Texture2D" uid="uid://bkgpasb1q3o4c" path="res://assets/object/_door_Image_4.png" id="2_3aapu"]
+[ext_resource type="Texture2D" uid="uid://gtuittfwr8mx" path="res://assets/object/_door_Image_5.png" id="3_vvrjh"]
+[ext_resource type="Texture2D" uid="uid://cdvnonppnfwx" path="res://assets/object/_door_Image_0.jpg" id="4_7hmxw"]
+[ext_resource type="Texture2D" uid="uid://c34na4eqths17" path="res://assets/object/_door_Image_1.png" id="5_sny10"]
+[ext_resource type="Texture2D" uid="uid://bgttsqqbp18ai" path="res://assets/object/_door_Image_2.png" id="6_qkv6n"]
+[ext_resource type="PackedScene" uid="uid://dva1m2tmwr0d6" path="res://assets/object/door/open_door.tscn" id="8_5svfv"]
+[ext_resource type="PackedScene" uid="uid://gq244e6xulnc" path="res://assets/object/door/close_door.tscn" id="9_8vhcr"]
+[ext_resource type="AudioStream" uid="uid://ox1qqtynyw28" path="res://assets/object/door_open.mp3" id="10_ie44u"]
+[ext_resource type="AudioStream" uid="uid://djbsylu1l2flr" path="res://assets/object/door_close.mp3" id="11_i6c63"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b71x8"]
 resource_name = "None"
@@ -275,9 +274,7 @@ size = Vector3(3.14697, 6.35181, 1.51514)
 
 [node name="door" type="Node3D"]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
-
-[node name="Complete" parent="." instance=ExtResource("12_q5h3h")]
-visible = false
+script = ExtResource("1_mss3b")
 
 [node name="_door" type="Node3D" parent="."]
 
@@ -323,6 +320,3 @@ stream = ExtResource("10_ie44u")
 
 [node name="door_close" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("11_i6c63")
-
-[node name="door_lock" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("11_sts0g")

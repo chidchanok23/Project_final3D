@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxwrvqhp5njq0"
-path.s3tc="res://.godot/imported/post_apocalyptic_bloody_chair_0.png-b9de0fa73486be5f4238d9025584e20c.s3tc.ctex"
+path.s3tc="res://.godot/imported/post_apocalyptic_bloody_chair_0.png-f23a1e54523305f4da822c841ec410b9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/sofa/post_apocalyptic_bloody_chair_0.png"
-dest_files=["res://.godot/imported/post_apocalyptic_bloody_chair_0.png-b9de0fa73486be5f4238d9025584e20c.s3tc.ctex"]
+source_file="res://assets/object/sofa/post_apocalyptic_bloody_chair_0.png"
+dest_files=["res://.godot/imported/post_apocalyptic_bloody_chair_0.png-f23a1e54523305f4da822c841ec410b9.s3tc.ctex"]
 
 [params]
 

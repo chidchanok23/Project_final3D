@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://e05pbon6pnho"
-path.s3tc="res://.godot/imported/man_ghost_complete_texture_0.png-e35eb53b4f296d520a27f2b31d01eaae.s3tc.ctex"
+path.s3tc="res://.godot/imported/man_ghost_complete_texture_0.png-426242120a1913a1c0b868d846637bdd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://charecter/man_ghost_complete_texture_0.png"
-dest_files=["res://.godot/imported/man_ghost_complete_texture_0.png-e35eb53b4f296d520a27f2b31d01eaae.s3tc.ctex"]
+source_file="res://world/charecter/man_ghost_complete_texture_0.png"
+dest_files=["res://.godot/imported/man_ghost_complete_texture_0.png-426242120a1913a1c0b868d846637bdd.s3tc.ctex"]
 
 [params]
 

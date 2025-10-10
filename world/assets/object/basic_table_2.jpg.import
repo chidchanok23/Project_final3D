@@ -3,19 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1241srix6spn"
-path.s3tc="res://.godot/imported/basic_table_2.jpg-77c8c643c9d668f678178bfe0d0444bc.s3tc.ctex"
+path.s3tc="res://.godot/imported/basic_table_2.jpg-724b9509de0bd41e61fe36263dce87e4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "0235bf31b36272b2498b66cd971557a9"
+"md5": "925add06462af320b68d9adee43d60e6"
 }
 
 [deps]
 
-source_file="res://world/assets/object/basic_table_2.jpg"
-dest_files=["res://.godot/imported/basic_table_2.jpg-77c8c643c9d668f678178bfe0d0444bc.s3tc.ctex"]
+source_file="res://assets/object/basic_table_2.jpg"
+dest_files=["res://.godot/imported/basic_table_2.jpg-724b9509de0bd41e61fe36263dce87e4.s3tc.ctex"]
 
 [params]
 

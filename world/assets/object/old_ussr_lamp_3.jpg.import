@@ -3,19 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2caajkdydcad"
-path.s3tc="res://.godot/imported/old_ussr_lamp_3.jpg-5723df0bbd861befe5c3a8c3fae92a29.s3tc.ctex"
+path.s3tc="res://.godot/imported/old_ussr_lamp_3.jpg-56949339c78f532768a631a45aebe6f2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "1cc86111dec5ca106869e562de8d4c21"
+"md5": "e9f6babb3054ad351687a2581a722d65"
 }
 
 [deps]
 
-source_file="res://world/assets/object/old_ussr_lamp_3.jpg"
-dest_files=["res://.godot/imported/old_ussr_lamp_3.jpg-5723df0bbd861befe5c3a8c3fae92a29.s3tc.ctex"]
+source_file="res://assets/object/old_ussr_lamp_3.jpg"
+dest_files=["res://.godot/imported/old_ussr_lamp_3.jpg-56949339c78f532768a631a45aebe6f2.s3tc.ctex"]
 
 [params]
 

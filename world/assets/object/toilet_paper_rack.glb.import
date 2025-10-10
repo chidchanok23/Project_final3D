@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dgiqiyo4g4tpf"
-path="res://.godot/imported/toilet_paper_rack.glb-255922cc1ae0d54de65ba2185a0af8db.scn"
+path="res://.godot/imported/toilet_paper_rack.glb-c4f52007824babbc758bb80b87aceb74.scn"
 
 [deps]
 
-source_file="res://world/assets/object/toilet_paper_rack.glb"
-dest_files=["res://.godot/imported/toilet_paper_rack.glb-255922cc1ae0d54de65ba2185a0af8db.scn"]
+source_file="res://assets/object/toilet_paper_rack.glb"
+dest_files=["res://.godot/imported/toilet_paper_rack.glb-c4f52007824babbc758bb80b87aceb74.scn"]
 
 [params]
 

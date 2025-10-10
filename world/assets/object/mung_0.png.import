@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cq556v3qp6f0d"
-path.s3tc="res://.godot/imported/mung_0.png-40ea92de0bc002d592d7cc01cb161106.s3tc.ctex"
+path.s3tc="res://.godot/imported/mung_0.png-09340a563f8584509963e49e80e38140.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/mung_0.png"
-dest_files=["res://.godot/imported/mung_0.png-40ea92de0bc002d592d7cc01cb161106.s3tc.ctex"]
+source_file="res://assets/object/mung_0.png"
+dest_files=["res://.godot/imported/mung_0.png-09340a563f8584509963e49e80e38140.s3tc.ctex"]
 
 [params]
 

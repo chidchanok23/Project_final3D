@@ -3,19 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bctvdfp82us3t"
-path.s3tc="res://.godot/imported/old_wooden_table_0.jpg-fbbc3fe9426ce5fcdd9416018674b922.s3tc.ctex"
+path.s3tc="res://.godot/imported/old_wooden_table_0.jpg-f40a365604ee22f7d7bad75d25cb68f1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "16f6b2a6d0229d49ebd8e36b502439dd"
+"md5": "e3cd0c61762b259fe49e1c4e333ed6be"
 }
 
 [deps]
 
-source_file="res://world/assets/old_wooden_table_0.jpg"
-dest_files=["res://.godot/imported/old_wooden_table_0.jpg-fbbc3fe9426ce5fcdd9416018674b922.s3tc.ctex"]
+source_file="res://assets/old_wooden_table_0.jpg"
+dest_files=["res://.godot/imported/old_wooden_table_0.jpg-f40a365604ee22f7d7bad75d25cb68f1.s3tc.ctex"]
 
 [params]
 

@@ -3,19 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cuqbrn5d1bx2y"
-path.s3tc="res://.godot/imported/book_shelf_0.jpg-325b7cca7cb6f07033e83696c18b28ae.s3tc.ctex"
+path.s3tc="res://.godot/imported/book_shelf_0.jpg-e95b7abd7ac1b4d21bc3efb0b379e3f8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "e1254b1beaaf7b5c18ed732e2b566130"
+"md5": "09f69421d8768df2d96f0125fd1bd472"
 }
 
 [deps]
 
-source_file="res://world/assets/object/book_shelf_0.jpg"
-dest_files=["res://.godot/imported/book_shelf_0.jpg-325b7cca7cb6f07033e83696c18b28ae.s3tc.ctex"]
+source_file="res://assets/object/book_shelf_0.jpg"
+dest_files=["res://.godot/imported/book_shelf_0.jpg-e95b7abd7ac1b4d21bc3efb0b379e3f8.s3tc.ctex"]
 
 [params]
 

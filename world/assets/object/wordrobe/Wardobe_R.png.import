@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hirhnx7lvvdj"
-path.s3tc="res://.godot/imported/Wardobe_R.png-91fc9f2fb577e6e6bcef08f7edcb4498.s3tc.ctex"
+path.s3tc="res://.godot/imported/Wardobe_R.png-d06fe088b5084b6379bf05ad1cd92f02.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://world/assets/object/wordrobe/Wardobe_R.png"
-dest_files=["res://.godot/imported/Wardobe_R.png-91fc9f2fb577e6e6bcef08f7edcb4498.s3tc.ctex"]
+source_file="res://assets/object/wordrobe/Wardobe_R.png"
+dest_files=["res://.godot/imported/Wardobe_R.png-d06fe088b5084b6379bf05ad1cd92f02.s3tc.ctex"]
 
 [params]
 

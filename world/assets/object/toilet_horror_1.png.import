@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://jf5pupni885p"
-path.s3tc="res://.godot/imported/toilet_horror_1.png-65bf96a350e908c12f6800bee05a0efa.s3tc.ctex"
+path.s3tc="res://.godot/imported/toilet_horror_1.png-3d2bd2715557e4ef53b5406f3b7acbb6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/toilet_horror_1.png"
-dest_files=["res://.godot/imported/toilet_horror_1.png-65bf96a350e908c12f6800bee05a0efa.s3tc.ctex"]
+source_file="res://assets/object/toilet_horror_1.png"
+dest_files=["res://.godot/imported/toilet_horror_1.png-3d2bd2715557e4ef53b5406f3b7acbb6.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cmn4fr32ypkgv"
-path="res://.godot/imported/wash_basin_haunted.glb-d9ca3ba4296df55243d071a319a07df7.scn"
+path="res://.godot/imported/wash_basin_haunted.glb-bc38908a0148d35506e1a8f0c58453f5.scn"
 
 [deps]
 
-source_file="res://world/assets/object/wash_basin_haunted.glb"
-dest_files=["res://.godot/imported/wash_basin_haunted.glb-d9ca3ba4296df55243d071a319a07df7.scn"]
+source_file="res://assets/object/wash_basin_haunted.glb"
+dest_files=["res://.godot/imported/wash_basin_haunted.glb-bc38908a0148d35506e1a8f0c58453f5.scn"]
 
 [params]
 

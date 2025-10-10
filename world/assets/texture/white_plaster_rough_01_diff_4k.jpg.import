@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://obrfiuasfef5"
-path.s3tc="res://.godot/imported/white_plaster_rough_01_diff_4k.jpg-436a32e1bef5b8141862e7a890f8fae5.s3tc.ctex"
+path.s3tc="res://.godot/imported/white_plaster_rough_01_diff_4k.jpg-01bc3bba67af28fde57f82ca212aa262.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://world/assets/texture/white_plaster_rough_01_diff_4k.jpg"
-dest_files=["res://.godot/imported/white_plaster_rough_01_diff_4k.jpg-436a32e1bef5b8141862e7a890f8fae5.s3tc.ctex"]
+source_file="res://assets/texture/white_plaster_rough_01_diff_4k.jpg"
+dest_files=["res://.godot/imported/white_plaster_rough_01_diff_4k.jpg-01bc3bba67af28fde57f82ca212aa262.s3tc.ctex"]
 
 [params]
 

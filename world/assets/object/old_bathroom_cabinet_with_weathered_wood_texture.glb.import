@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cmk4wfroa0jj2"
-path="res://.godot/imported/old_bathroom_cabinet_with_weathered_wood_texture.glb-a48ad1ced0d3209667444856d21e39de.scn"
+path="res://.godot/imported/old_bathroom_cabinet_with_weathered_wood_texture.glb-db97c5c32ed99b5e8f82a2cd8f6b08f5.scn"
 
 [deps]
 
-source_file="res://world/assets/object/old_bathroom_cabinet_with_weathered_wood_texture.glb"
-dest_files=["res://.godot/imported/old_bathroom_cabinet_with_weathered_wood_texture.glb-a48ad1ced0d3209667444856d21e39de.scn"]
+source_file="res://assets/object/old_bathroom_cabinet_with_weathered_wood_texture.glb"
+dest_files=["res://.godot/imported/old_bathroom_cabinet_with_weathered_wood_texture.glb-db97c5c32ed99b5e8f82a2cd8f6b08f5.scn"]
 
 [params]
 

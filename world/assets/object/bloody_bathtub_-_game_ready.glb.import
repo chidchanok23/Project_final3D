@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bixg88v4otscn"
-path="res://.godot/imported/bloody_bathtub_-_game_ready.glb-856eb54950af41254cadf2c8902af889.scn"
+path="res://.godot/imported/bloody_bathtub_-_game_ready.glb-e1a8f85ce030fa6584ace655fbc66499.scn"
 
 [deps]
 
-source_file="res://world/assets/object/bloody_bathtub_-_game_ready.glb"
-dest_files=["res://.godot/imported/bloody_bathtub_-_game_ready.glb-856eb54950af41254cadf2c8902af889.scn"]
+source_file="res://assets/object/bloody_bathtub_-_game_ready.glb"
+dest_files=["res://.godot/imported/bloody_bathtub_-_game_ready.glb-e1a8f85ce030fa6584ace655fbc66499.scn"]
 
 [params]
 

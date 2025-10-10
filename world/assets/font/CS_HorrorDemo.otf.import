@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://b8rgpe8kne7ed"
-path="res://.godot/imported/CS_HorrorDemo.otf-4531c3c30f3b01f54f4156c249d4c320.fontdata"
+path="res://.godot/imported/CS_HorrorDemo.otf-b71ffd243e2cdef9b205b0fea0a37c4d.fontdata"
 
 [deps]
 
-source_file="res://world/assets/font/CS_HorrorDemo.otf"
-dest_files=["res://.godot/imported/CS_HorrorDemo.otf-4531c3c30f3b01f54f4156c249d4c320.fontdata"]
+source_file="res://assets/font/CS_HorrorDemo.otf"
+dest_files=["res://.godot/imported/CS_HorrorDemo.otf-b71ffd243e2cdef9b205b0fea0a37c4d.fontdata"]
 
 [params]
 

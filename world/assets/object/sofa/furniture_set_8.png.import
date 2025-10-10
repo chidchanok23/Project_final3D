@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bf7lk6mnhatfg"
-path.s3tc="res://.godot/imported/furniture_set_8.png-49d302ed2c990e07adcd285832c8a4c0.s3tc.ctex"
+path.s3tc="res://.godot/imported/furniture_set_8.png-0acf432a9f82356ca6c16ed9a143f099.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://world/assets/object/sofa/furniture_set_8.png"
-dest_files=["res://.godot/imported/furniture_set_8.png-49d302ed2c990e07adcd285832c8a4c0.s3tc.ctex"]
+source_file="res://assets/object/sofa/furniture_set_8.png"
+dest_files=["res://.godot/imported/furniture_set_8.png-0acf432a9f82356ca6c16ed9a143f099.s3tc.ctex"]
 
 [params]
 

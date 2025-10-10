@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bbupaokk6yiyw"
-path="res://.godot/imported/buddha_statue.glb-754846311131233d4bad777a5d519a99.scn"
+path="res://.godot/imported/buddha_statue.glb-3c65f7058c172d7f1a91e4f8bdb11fee.scn"
 
 [deps]
 
-source_file="res://world/assets/buddha_statue.glb"
-dest_files=["res://.godot/imported/buddha_statue.glb-754846311131233d4bad777a5d519a99.scn"]
+source_file="res://assets/buddha_statue.glb"
+dest_files=["res://.godot/imported/buddha_statue.glb-3c65f7058c172d7f1a91e4f8bdb11fee.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b273eye3xvjpq"
-path="res://.godot/imported/drawer__game_ready_asset__pbr.glb-c26d3ff8a58c8765162656c63a788f3e.scn"
+path="res://.godot/imported/drawer__game_ready_asset__pbr.glb-e8d9bde99a387899d2dfa03290a515d8.scn"
 
 [deps]
 
-source_file="res://world/assets/object/drawer__game_ready_asset__pbr.glb"
-dest_files=["res://.godot/imported/drawer__game_ready_asset__pbr.glb-c26d3ff8a58c8765162656c63a788f3e.scn"]
+source_file="res://assets/object/drawer__game_ready_asset__pbr.glb"
+dest_files=["res://.godot/imported/drawer__game_ready_asset__pbr.glb-e8d9bde99a387899d2dfa03290a515d8.scn"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://bxrcnifikqq60"
-path="res://.godot/imported/KC Nightmare.ttf-683f55643de4194d1f0a20ebc68c5846.fontdata"
+path="res://.godot/imported/KC Nightmare.ttf-d6a70860c101b9f9fc2379a7840eef86.fontdata"
 
 [deps]
 
-source_file="res://world/assets/font/KC Nightmare.ttf"
-dest_files=["res://.godot/imported/KC Nightmare.ttf-683f55643de4194d1f0a20ebc68c5846.fontdata"]
+source_file="res://assets/font/KC Nightmare.ttf"
+dest_files=["res://.godot/imported/KC Nightmare.ttf-d6a70860c101b9f9fc2379a7840eef86.fontdata"]
 
 [params]
 

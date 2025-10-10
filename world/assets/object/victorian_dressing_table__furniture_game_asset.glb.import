@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bxxun4llv7hbr"
-path="res://.godot/imported/victorian_dressing_table__furniture_game_asset.glb-2cc1a05e26bef1515a3bf70903b1186e.scn"
+path="res://.godot/imported/victorian_dressing_table__furniture_game_asset.glb-fe925c7009576bce52680e25f0b527c3.scn"
 
 [deps]
 
-source_file="res://world/assets/object/victorian_dressing_table__furniture_game_asset.glb"
-dest_files=["res://.godot/imported/victorian_dressing_table__furniture_game_asset.glb-2cc1a05e26bef1515a3bf70903b1186e.scn"]
+source_file="res://assets/object/victorian_dressing_table__furniture_game_asset.glb"
+dest_files=["res://.godot/imported/victorian_dressing_table__furniture_game_asset.glb-fe925c7009576bce52680e25f0b527c3.scn"]
 
 [params]
 
